@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { StudentIntro } from '../models/StudentIntro'
 import { useState } from 'react'
-import { Box, Button, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
+import { Box, Button, FormControl, FormLabel, Input, NumberDecrementStepper, NumberIncrementStepper, NumberInput, NumberInputField, NumberInputStepper, Textarea } from '@chakra-ui/react'
 import * as web3 from '@solana/web3.js'
 import { useConnection, useWallet } from '@solana/wallet-adapter-react'
 
